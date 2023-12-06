@@ -1,0 +1,12 @@
+.phonecard ul li a{
+    text-decoration: none;
+    color: black;
+}
+.cardimg{
+    display: flex;
+    justify-content: center;
+}
+.rate a{
+    color: pink;
+    background-color: pink;
+}

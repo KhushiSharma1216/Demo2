@@ -1,0 +1,578 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbarcontainer{
+    display: flex;
+    padding: 3px;
+}
+.firstlist{
+    width: 60%;
+    display: flex;
+}
+.secondlist{
+    width: 40%;
+    display: flex;
+}
+.navlogo{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.logoname{
+    color: red;
+}
+
+.Menu1{
+    width: 90%;
+    align-items: center;
+    padding: 10px;
+}
+.Menu1 ul{
+    display: flex;
+    justify-content: space-evenly;
+    height: 28px;
+    align-items: center;
+}
+.menu2{
+    width: 80%;
+    align-items: center;
+    padding: 10px;
+}
+.menu2 ul{
+    display: flex;
+    justify-content: space-evenly;
+    height: 28px;
+    align-items: center;
+}
+.icons{
+    width: 20%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icons svg{
+    width: 20%;
+   height: 48px;
+}
+.icons svg:hover{
+    color: red;
+}
+.Menu1 ul li,.menu2 ul li{
+    list-style: none;
+   
+}
+.Menu1 ul li a, .menu2 ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.menu2 ul li a:hover{
+    color: red;
+}
+.Menu1 ul li a:hover{
+    color: red;
+}
+.banner{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.bannerimg{
+    position: relative;
+}
+.text{
+    position: absolute;
+    left: 100px;
+    top: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    font-size: 33px;
+}
+.text ul{
+    list-style: none;
+    display: flex;
+}
+.text p{
+    text-decoration: none;
+    color: white;
+}
+.two{
+    font-size: 20px;
+}
+.text2{
+    position: absolute;
+    top: 600px;
+    left: 11SS0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    font-size: 20px;
+}
+.text2 ul{
+    list-style: none;
+}
+.text2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.text2 button
+{
+    color: black;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    width: 37%;
+    height: 38px;   
+    background: none;
+
+}
+ .buybut:hover
+{
+  color: white;
+  background:black;
+  
+}
+.text2 {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+ 
+}
+.three{
+    text-align: center;
+}
+.four a{
+    color: black;
+    font-family: fantasy;
+}
+.text-with-img{
+    display: flex;
+}
+.text-ones{
+    width: 35%;
+    font-size: 50px;
+    font-family: sans-serif;
+    padding: 50px;
+}
+.phoneimg{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
+.phoneimg img{
+    height: 450px;
+    width: 100%;
+}
+.text-ones a{
+    
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.text-ones .blank{
+    height: 250px;
+}
+.text-ones ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+}
+.bank{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    font-size: 30px;
+    align-items: center;
+}
+.now{
+    display: flex;
+    justify-content: center;
+ 
+}
+.now a{
+    background: black;
+    color: white;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.advertising{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.tv{
+    display: flex;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(233 233 233);
+
+}
+.tvtext{
+    width: 40%;
+}
+.tvtext ul,.earbudstext ul{
+    list-style: none;
+}
+.tvimg img{
+    width: 80%;
+    height: 300px;
+}
+.tvimg{
+    width: 60%;
+}
+.earbuds{
+    width: 50%;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(233 233 233);
+   }
+.earbudsimg{
+    width: 50%;
+}
+.earbudsimg img{
+    width: 100%;
+    height: 300px;
+}
+.tvtext ul li a,.earbudstext ul li a{
+    text-decoration: none;
+}
+.pro a,.buds a{
+    color: black;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blank2,.blank3{
+    height: 150px;
+}
+.dis a{
+    color: black;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.dis2 a,.at a{
+    color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.now2 a{
+    font-size: 20px;
+    color: white;
+    background: black;
+    justify-content: center;
+    display: flex;
+}
+.text-play{
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+}
+.text-play a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.text-play ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.text-play ul li{
+    list-style: none;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cardimg img,.cardimg2 img,.cardimg3 img,.cardimg4 img{
+    height: 300px;
+    object-fit: contain;
+    background-color: rgb(236, 232, 232);
+}
+.same,.same2,.same3,.same4{
+    font-size: 20px;
+    list-style: none;
+}
+.cardsgame ul li a{
+text-decoration: none;
+color: black;
+}
+.blankk{
+    height: 80px;
+}
+.blankk3{
+    height: 40px;
+}
+.tvcard .offer a{
+    color: red;
+}
+.cardimg2 li{
+display: flex;
+justify-content: space-around;
+list-style: none;
+}
+.tabcard li{
+    display: flex;
+justify-content: space-around;
+list-style: none;
+}
+.phonecard li{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.greenphonecard li{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.tvcard li{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+} 
+.rate :hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+.featureplan{
+    padding: 20px;
+}
+.featuretext ul{
+    width: 85%;
+    margin: 0 auto;
+    list-style: none;
+}
+.featuretext ul li{
+    font-size: 20px;
+}
+.featuretext ul li a{
+   text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.featureplan a{
+    font-size: 50px;
+    padding: 20px;
+}
+.featureplan1{
+    margin: 10px;
+    padding-top: 30px;
+}
+.keyboardimg img{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+.keyboarddetail{
+    display: flex;
+    margin: 0 AUTO;
+    background-color: black;
+}
+.keyboardimg{
+    width: 50%;
+    padding: 10px;
+}
+.keyboardtext{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.keyboardtext li{
+    list-style: none;
+}
+.keyboardtext li a{
+    text-decoration: none;
+}
+.first1 a,.third3 a,.fourth4 a{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+.fourth4 a{
+    color: white;
+    background-color: black;
+    width: 30%;
+    margin: 0 auto;
+}
+.second2 a{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+}
+.blankkdiv{
+    height: 230px;
+}
+.div{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+    background-color: black;
+    height: 300px;
+}
+.div ul{
+    list-style: none;
+    color: white;
+    height: 300px;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+.div ul li a{
+text-decoration: none;
+color: #8f8787;
+}
+.div ul li a:hover{
+    color: white;
+}
+.firstone{
+    display: flex;
+}
+.textone{
+    width: 83%;
+}
+.symbal{
+    width: 17%;
+    display: flex;
+    justify-content: start;
+}
+.textone ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.textone ul li a{
+    text-decoration: none;
+    color: #8f8787;
+}
+.textone ul li a:hover{
+    color: white;
+}
+.secondone{
+    display: flex;
+}
+.secondlist1{
+    width: 70%;
+}
+.secondlist1 ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.secondlist1 ul li a{
+    text-decoration: none;
+    color: #8f8787;
+}
+.secondlist2{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    color: #8f8787;
+}
+.lastfooter{
+    background-color: black;
+    padding: 30px;
+}
+.secondlist1 ul li a:hover{
+    color: white;
+}
+@media only screen and (max-width:600px){
+    .navbarcontainer
+    {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .navlog
+    {
+        width: 50%;
+    }
+    .Menu1
+    {
+        display: none;
+    }
+    .Menu1 ul
+    {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        height: 50px;
+        align-items: center;
+    }
+    .Menu1 ul li{
+        box-sizing: border-box;
+    }
+    .secondlist
+    {
+        width: 50%;
+    }
+    .menu2
+    {
+        display: none;
+    }
+    .menu2 ul{
+        display: flex;
+        justify-content: space-evenly;
+        height: 28px;
+        align-items: center;
+    }
+    .menu2 ul li
+    {
+        box-sizing: border-box;
+    }
+    .icons
+    {
+        box-sizing: border-box;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: end;
+        width: 100%;
+    }
+    .banner{
+        height: 350px;
+    }
+    .text{
+        top: 20px;
+        left: 80px;
+    }
+    .text2{
+        top: 280px;
+        left: 30px;
+    }
+ .text-with-img{
+    width: 100%;
+    position: relative;
+ }
+   .text-ones{
+    width: 100%;
+   }
+
+   }
+ @media only sceen and(min-width:768px) {
+    .navlogo
+    {
+        width: 100%;
+        font-size: 30px;
+    }
+    .navimg
+    {
+        font-size: 20px;
+        width: 20%;
+        display: flex;
+        justify-content: end;
+    }
+    .firstlist .Menu1{
+        display: none;
+    }
+ }
+
+
